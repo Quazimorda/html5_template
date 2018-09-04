@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Стартовый шаблон</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+</head>
+<body>
+
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-sm-10 col-sm-offset-1">
+
+				<img class="img-responsive" src="images/html5template.jpg" alt="Free HTML5 Template">
+
+
+				<p>Бесплатный стартовый HTML5 шаблон для разработки сайтов с&nbsp;использованием Gulp. В&nbsp;него уже подключены библиотека JQuery и&nbsp;сетка Bootsrap. Для его работы вам понадобятся Git и&nbsp;Node Js. При желании вы&nbsp;можете также пользоваться Bower. Устанавливаемые с&nbsp;его помощью плагины попадут в&nbsp;папку app/libs. JQuery и&nbsp;сетка Bootsrap установлены именно так.</p>
+
+				<p>В&nbsp;папке app/sass расположены файлы стилей шаблона, которые собираются в&nbsp;последствии в&nbsp;app/css/main.css. Собственно стили пишутся с&nbsp;использованием препроцессора SASS. На&nbsp;этапе разработки я&nbsp;считаю удобным не&nbsp;минифицировать стили. Но&nbsp;в&nbsp;момент публикации сайта, советую раскоментировать соответствующие строчки в&nbsp;файле gulpfile.js в&nbsp;корневой папке шаблона.</p>
+
+				<p>Документация по&nbsp;проекту находится в&nbsp;разработке. Используйте, дорабатывайте, не&nbsp;стесняйтесь сообщать об&nbsp;ошибках в&nbsp;шаблоне.</p>
+
+			</div>
+
+		</div>
+
+	</div>
+	
+	<!-- bower:css -->
+	<link rel="stylesheet" href="libs/bootstrap-grid/dist/bootstrap-grid.min.css" />
+	<link rel="stylesheet" href="libs/normalize.css/normalize.css" />
+	<!-- endbower -->
+	<link rel="stylesheet" href="css/main.css">
+
+	<!-- bower:js -->
+	<script src="libs/jquery/dist/jquery.min.js"></script>
+	<script src="libs/html5shiv/dist/html5shiv.js"></script>
+	<!-- endbower -->
+	<script src="js/main.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+	"name": "HTML5_Template",
+	"version": "0.'0.1",
+	"description": "Free HTML5 Template with Gulp, Sass, Bower, Bootstrap and JQuery",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Quazimorda/html5_template.git"
+	},
+	"author": "Vladimir N. Smirnov",
+	"license": "ISC",
+	"devDependencies": {
+		"browser-sync": "^2.24.7",
+		"gulp": "^3.9.1",
+		"gulp-autoprefixer": "^6.0.0",
+		"gulp-cache": "^1.0.2",
+		"gulp-clean-css": "^3.10.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-concat-css": "^3.1.0",
+		"gulp-imagemin": "^4.1.0",
+		"gulp-notify": "^3.2.0",
+		"gulp-rename": "^1.4.0",
+		"gulp-sass": "^4.0.1",
+		"gulp-uglify": "^3.0.1",
+		"wiredep": "^4.0.0"
+	},
+	"dependencies": {}
+}
