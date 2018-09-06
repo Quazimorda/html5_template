@@ -1,6 +1,6 @@
 {
 	"name": "HTML5_Template",
-	"version": "0.'0.1",
+	"version": "0.0.1",
 	"description": "Free HTML5 Template with Gulp, Sass, Bower, Bootstrap and JQuery",
 	"main": "index.js",
 	"scripts": {
@@ -26,6 +26,5 @@
 		"gulp-sass": "^4.0.1",
 		"gulp-uglify": "^3.0.1",
 		"wiredep": "^4.0.0"
-	},
-	"dependencies": {}
+	}
 }

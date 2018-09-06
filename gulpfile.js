@@ -9,7 +9,6 @@ var	gulp 					= require('gulp'),
 		cache					= require('gulp-cache'),
 		imagemin 			= require('gulp-imageMin'),
 		autoprefixer	= require('gulp-autoprefixer'),
-		del 					= require('del'),
 		wiredep				= require('wiredep').stream,
 		notify				= require('gulp-notify')
 ;
@@ -111,7 +110,7 @@ gulp.task('watch', ['styles', 'scripts', 'bower', 'browser-sync'], function() {
 gulp.task('imagemin', function() {
 	return gulp.src('app/images/**/*')
 	.pipe(cache(imagemin()))
-	.pipe(gulp.dest('dist/images')); 
+	.pipe(gulp.dest('app/images')); 
 });
 
 
